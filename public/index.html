@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FCC - Timestamp Microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Submit a file to view its size.</h3>
+    </div>
+    <div class="container">
+            <form action="/get-file-size" method="post" enctype="multipart/form-data" id="submit-file">
+                <div class="form-group">
+                    <input class="form-control-file" type="file" name="file"><br>
+                    <input class="btn" type="submit" value="Send">
+                </div>
+            </form>
+    </div>
+</body>
+</html>
